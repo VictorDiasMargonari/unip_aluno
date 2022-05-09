@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<div style="display: none !important"><matricula>1872949</matricula></div>
+		<div style="margin-left:2%; margin-right:2%; margin-top:2%; color:#00008b;font-family:Verdana;font-size: 30Px;">
+			<img src="/../../../../logo_tecuni.jpg"/>
+			<table width="100%" border="0" cellspacing="0" cellpadding="1">
+				<tbody>
+					<tr>
+						<td colspan="2" align="center">
+							<b><font face="Arial">Dados do Aluno</font></b>
+							<font face="Arial"></font>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><hr noshade="" color="blue" size="1"></td>
+					</tr>
+					<tr>
+						<td style="width:330px;"><b>Matrícula:</b></td>
+						<td style="text-transform: uppercase;">1872949</td>
+					</tr>
+					<tr>
+						<td style="width:180px;"><b>Nome:</b></td>
+						<td style="text-transform: uppercase;">VICTOR DIAS MARGONARI</td>
+					</tr>
+					<tr>
+						<td style="width:180px;"><b>RG:</b></td>
+						<td style="text-transform: uppercase;">390380404</td>
+					</tr>
+					<tr>
+						<td style="width:180px;"><b>Nascimento:</b></td>
+						<td style="text-transform: uppercase;">15/07/1997</td>
+					</tr>
+					<tr>
+						<td style="width:180px;"><b>Curso:</b></td>
+						<td style="text-transform: uppercase;">59101 - ADMINISTRAÇÃO</td>
+					</tr>
+					<tr>
+						<td style="width:180px;"><b>Unidade:</b></td>
+						<td style="text-transform: uppercase;">9272 - SÃO PAULO - TATUAPÉ - SILVIO ROMERO</td>
+					</tr>
+					<tr>
+						<td style="width:180px;"><b>Carteirinha:</b></td>
+						<td style="text-transform: uppercase;">Ativo</td>
+					</tr>
+					<tr>
+						<td style="width:30px;"><b>Validade:</b></td>
+						<td style="text-transform: uppercase;">JUL/2024</td>
+					</tr>
+					<tr>
+						<td colspan="2"><hr noshade="" color="blue" size="1"></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="font-size:18px;">Data: <span id="curent_date"></span> </td>
+					</tr>
+				</tbody>
+			</table>
+			<script>
+				let today = new Date().toLocaleDateString();
+				document.getElementById("curent_date").innerHTML = today;
+			</script>
+		</div>
+	</body>
+</html>
